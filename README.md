@@ -35,7 +35,7 @@ array[j + 1] = currentElement
 
 5. Each iteration of my nested loop will compare the current element from my unsorted array to my elements in my sorted array. If the element is smaller than the element in my sorted array, it will decrement it's position and place it in it's correct index. In other words, it will re-index the smaller value, into the correct index. The correct index is determined if the element to the left is smaller than the current element.
 
-7. In the end, I return my sorted array. This code works on numbers and strings. It looks like this: [Insertion Sort] (https://www.doabledanny.com/static/92b034385c440e08bc8551c97df0a2e3/2.gif).
+7. In the end, I return my sorted array. This code works on numbers and strings. It looks like this: ![Insertion Sort] (https://www.doabledanny.com/static/92b034385c440e08bc8551c97df0a2e3/2.gif).
 
 ##Time Complexity
 
@@ -57,8 +57,8 @@ It also works on mixed data types, but probably not a good idea for a large mixe
 
 ##Citations
 
-[YouTube - Programming with Mosh] (https://www.youtube.com/watch?v=nKzEJWbkPbQ&t=156s)
+[YouTube - Programming with Mosh] (https://www.youtube.com/watch?v=nKzEJWbkPbQ&t=156s).
 
-[YouTube - Michael Sambol] (https://www.youtube.com/watch?v=JU767SDMDvA)
+[YouTube - Michael Sambol] (https://www.youtube.com/watch?v=JU767SDMDvA).
 
-[Doable Danny] (https://www.doabledanny.com/insertion-sort-in-javascript)
+[Doable Danny] (https://www.doabledanny.com/insertion-sort-in-javascript).
