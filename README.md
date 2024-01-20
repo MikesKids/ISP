@@ -4,7 +4,7 @@
 
 Insertion Sort is one of many sorting algorithms. With insertion sort, it is often compared to working similarly to the way you sort playing cards. With Insertion Sort, it takes the array and examines 2 elements at a time. As it compares the elements to its left, until it reaches an element that is smaller. There are many benefits to sorting, but the main benefit is the organization of elements. You will know there is nothing smaller than this element (or no letter comes before this element). 
 
-# Algorithm Description
+## Algorithm Description
 1. I've created a function named insertionSort to call and reuse the code. The function will take an array as parameter
 ```
 function insertionSort(array)
@@ -16,13 +16,13 @@ function insertionSort(array)
 for (let i = 1; i < array.length; i++) 
 ```
 
-3. As it starts each iteration, I store the current element into a variable I named `currentElement`
+3. As it starts each iteration, I store the current element into a variable named `currentElement`
 
 ```
 let currentElement = array[i];
 ```
 
-4. I had to declare `j` outside of my nested `for loop` to iterate over my  array. This will now be my sorted array. Where we will compare the `currentElement` and put them in there correct sorted position, based on comparison of the number there. In the first iteration, I am stating my element at index `i - 1` (which is 1-1 = 0). If element at index 0 is greater than or equal to 0 `and` my element in my sorted array[0] is greater than the currentElement (my unsorted array[1]). This part is like having an `if statement` inside of my for loop. Now my code calls for my element to be array[0 + 1] = array[0], if it is greater than the `currentElement`. If it is less than the `currentElement`, than it will simply keep the elements in its place.
+4. I had to declare `j` outside of my nested `for loop` to iterate over my  array. This will now be my sorted array. Where we will compare the `currentElement` and put them in there correct sorted position, based on comparison of the number there. In the first iteration, I am starting my element at index `i - 1` (which is 1-1 = 0). If element at index 0 is greater than or equal to 0 `and` my element in my sorted array[0] is greater than the currentElement (my unsorted array[1]). This part is like having an `if statement` inside of my for loop. Now my code calls for my element to be array[0 + 1] = array[0], if it is greater than the `currentElement`. If it is less than the `currentElement`, than it will simply keep the elements in its place.
 
 ```
 let j;
