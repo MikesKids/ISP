@@ -22,7 +22,7 @@ for (let i = 1; i < array.length; i++)
 let currentElement = array[i];
 ```
 
-4. I've created a nested `for loop` to iterate through and hold my `sorted array`. The first iteration, I am comparing element at `index[0]` to the element at `index[1]`. If `index[0]` is greater, it will be shifted to the right. If `index[1]` is greater, than it is sorted, and will remain in place. Through each iteration, it will compare the `currentElement` with the elements in the sorted array. 
+4. I've created a inner `for loop` to iterate through from the current index `i - 1 = 0`, checking if the element at the current inner loop index `array[j]` is greater than `currentElement`. If the condition in the inner loop is true, it shifts the elements to the right to make space for `currentElement`. The code `array[j + 1] = currentElement` inserts the element into its correct sorted position in the array.
 
 
 
